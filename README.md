@@ -8,11 +8,18 @@ The Automatic Tag Generator is an AI-based application that automatically genera
 In today's didgital environment large amount of textual content such as blogs,articles,documents and reports are generated daily.Assigning tags manually to such content is time-consuming,inconsistent and prone to human error.An automated system is required to analyze text and generate relavant tags accurately.The proposed Automatic Tag Generator aims to solve this problem by using NLP,TF-IDF and machine learning techniques to produce apppropriate tags automatically.
 
 ## Technologies Used
-- Python
-- NLTK
-- Scikit-learn
-- TF-IDF
-- Streamlit
+Frontend
+  - streamlit
+Backend
+  - python
+NLP    
+  - NLTK
+Feature Extraction    
+   - TF-IDF(Scikit-learn)
+Machine Learning
+  - Logistic Regression / Naive Bayes
+Version Control
+  - Git & Github
 
 ## Project Objective
 This project automatically generates relevant tags from text using Natural Language Processing (NLP) and Machine Learning techniques.
