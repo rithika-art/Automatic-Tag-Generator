@@ -1,6 +1,5 @@
 ## Project Title
 # Automatic-Tag-Generator
-# Automatic Tag Generator Using NLP and Machine Learning
 
 ## Project Objective
 This project automatically generates relevant tags from text using Natural Language Processing (NLP) and Machine Learning techniques.
@@ -23,5 +22,3 @@ This project automatically generates relevant tags from text using Natural Langu
 - Multi-language tag generation
 - Deep Learning models
 
-## Author
-Rithika Saravanan
