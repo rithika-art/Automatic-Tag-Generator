@@ -9,17 +9,17 @@ In today's didgital environment large amount of textual content such as blogs,ar
 
 ## Technologies Used
 Frontend
-  - streamlit
+ -streamlit
 Backend
-  - python
+ -python
 NLP    
-  - NLTK
+ -NLTK
 Feature Extraction    
-   - TF-IDF(Scikit-learn)
+  -TF-IDF(Scikit-learn)
 Machine Learning
-  - Logistic Regression / Naive Bayes
+  -Logistic Regression / Naive Bayes
 Version Control
-  - Git & Github
+  -Git & Github
 
 ## Project Objective
 This project automatically generates relevant tags from text using Natural Language Processing (NLP) and Machine Learning techniques.
