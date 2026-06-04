@@ -1,5 +1,5 @@
 ## Project Title
-# Automatic-Tag-Generator
+### Automatic-Tag-Generator
 
 ## Project Objective
 This project automatically generates relevant tags from text using Natural Language Processing (NLP) and Machine Learning techniques.
