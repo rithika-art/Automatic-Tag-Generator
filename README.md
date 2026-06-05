@@ -20,7 +20,7 @@ In today's didgital environment large amount of textual content such as blogs,ar
   - Tokenization
   - Stopword Removal
   - Lemmatization
-
+  
 ### Feature Extraction
 - TF-IDF Vectorization (Scikit-learn)
 
@@ -43,14 +43,8 @@ In today's didgital environment large amount of textual content such as blogs,ar
 This project automatically generates relevant tags from text using Natural Language Processing (NLP) and Machine Learning techniques.
 
 
-## Features
-- Text preprocessing
-- Keyword extraction
-- Automatic tag generation
-- User-friendly interface
-
-## Future Enhancements
-- PDF upload support
-- Multi-language tag generation
-- Deep Learning models
-
+## User & module identification
+- Identified system users
+- defined project modules
+- Documented preprocessing,feature extraction and ML modules
+- prepared system architecture structure
