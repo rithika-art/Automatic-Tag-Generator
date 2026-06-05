@@ -53,4 +53,4 @@ This project automatically generates relevant tags from text using Natural Langu
 - prepared system architecture structure
 
  ## use case and diagram preparation
- images/"C:\Users\SANJITA\Desktop\Automatic-Tag-Generator\images\ChatGPT Image Jun 5, 2026, 03_33_50 PM.png"
+ images/https://github.com/rithika-art/Automatic-Tag-Generator/blob/main/images/ChatGPT%20Image%20Jun%205%2C%202026%2C%2003_33_50%20PM.png
