@@ -15,6 +15,9 @@ In today's didgital environment large amount of textual content such as blogs,ar
 ### Backend
 - Python
 
+### Database
+- PostgreSQL
+  
 ### Natural Language Processing (NLP)
 - NLTK
   - Tokenization
