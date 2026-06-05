@@ -51,3 +51,6 @@ This project automatically generates relevant tags from text using Natural Langu
 - defined project modules
 - Documented preprocessing,feature extraction and ML modules
 - prepared system architecture structure
+
+ ## use case and diagram preparation
+ images/"C:\Users\SANJITA\Desktop\Automatic-Tag-Generator\images\ChatGPT Image Jun 5, 2026, 03_33_50 PM.png"
