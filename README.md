@@ -66,3 +66,15 @@ This project automatically generates relevant tags from text using Natural Langu
  #### Training Dataset 
  - text content
  - associated tags
+
+   ## ER Diagram creation
+
+### Entity 1: User_Input
+- Input_ID (Primary Key)
+- Input_Text
+
+### Entity 2: Generated_Tags
+- Tag_Text
+
+### Relationship
+- One User Input can generate multiple Tags.
