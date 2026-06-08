@@ -78,3 +78,26 @@ This project automatically generates relevant tags from text using Natural Langu
 
 ### Relationship
 - One User Input can generate multiple Tags.
+
+ ## ER DIAGRAM
+ images https://github.com/rithika-art/Automatic-Tag-Generator/blob/main/images/ChatGPT%20Image%20Jun%208%2C%202026%2C%2008_54_39%20AM.png
+
+ ## Database Schema Creation
+
+### Table: user_input
+
+| Column Name | Data Type | Description |
+|------------|-----------|-------------|
+| input_id | SERIAL | Unique identifier |
+| input_text | TEXT | User entered text |
+| generated_tags | TEXT | Generated tags |
+
+### PostgreSQL Schema
+
+```sql
+CREATE TABLE user_input (
+    input_id SERIAL PRIMARY KEY,
+    input_text TEXT NOT NULL,
+    generated_tags TEXT
+);
+```
