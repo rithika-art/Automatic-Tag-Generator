@@ -163,3 +163,14 @@ Frontend development environment was configured successfully.
 - VS Code for code development
 - Streamlit for frontend UI development
 - Git and GitHub for version control
+
+ ##  Login Page Development
+
+### Features
+- Username field
+- Password field
+- Login button
+- Login validation
+- Success and error messages
+
+Frontend implemented using Streamlit. 
