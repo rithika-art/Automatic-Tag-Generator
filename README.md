@@ -101,3 +101,18 @@ CREATE TABLE user_input (
     generated_tags TEXT
 );
 ```
+## Day 10 - Login and Dashboard UI Design
+
+### Login Page
+- Username field
+- Password field
+- Login button
+
+### Dashboard
+- Total Inputs counter
+- Generated Tags counter
+- Generate New Tags option
+- View History option
+- Export Tags option
+
+UI designed using Streamlit.
