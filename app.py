@@ -1,46 +1,24 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Automatic Tag Generator",
-    page_icon="🏷️",
-    layout="centered"
-)
+st.set_page_config(page_title="Automatic Tag Generator")
 
-st.markdown("""
-<style>
-.main {
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-}
-.big-title {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-}
-.subtitle {
-    text-align: center;
-    font-size: 20px;
-}
-</style>
-""", unsafe_allow_html=True)
+# Login Page
+st.title("🔐 Login")
 
-st.markdown('<p class="big-title">🏷️ Automatic Tag Generator</p>',
-            unsafe_allow_html=True)
+username = st.text_input("Username")
+password = st.text_input("Password", type="password")
 
-st.markdown('<p class="subtitle">Generate smart hashtags instantly ✨</p>',
-            unsafe_allow_html=True)
+if st.button("Login"):
 
-text = st.text_area(
-    "Enter your content",
-    placeholder="Type your text here..."
-)
+    st.success("Login Successful!")
 
-if st.button("🚀 Generate Tags"):
-    words = text.split()
-    tags = ["#" + word.capitalize() for word in words]
+    st.title("🏷️ Dashboard")
 
-    st.success("Tags Generated Successfully!")
+    st.metric("Total Inputs", "120")
+    st.metric("Generated Tags", "850")
 
-    st.markdown("### 🎯 Suggested Tags")
+    st.subheader("Quick Actions")
 
-    for tag in tags:
-        st.markdown(f"🔹 **{tag}**")
+    st.button("Generate New Tags")
+    st.button("View History")
+    st.button("Export Tags")
