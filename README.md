@@ -101,7 +101,7 @@ CREATE TABLE user_input (
     generated_tags TEXT
 );
 ```
-## Day 10 - Login and Dashboard UI Design
+## Login and Dashboard UI Design
 
 ### Login Page
 - Username field
