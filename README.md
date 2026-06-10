@@ -116,3 +116,16 @@ CREATE TABLE user_input (
 - Export Tags option
 
 UI designed using Streamlit.
+
+ Navigation and Form Design
+ 
+### Navigation
+- Login Page
+- Dashboard Page
+- Tag Generator Page
+
+### Form Design
+- Text Input Area
+- Generate Tags Button
+
+Navigation is implemented using Streamlit sidebar.
