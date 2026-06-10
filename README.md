@@ -101,3 +101,48 @@ CREATE TABLE user_input (
     generated_tags TEXT
 );
 ```
+## Login and Dashboard UI Design
+
+### Login Page
+- Username field
+- Password field
+- Login button
+
+### Dashboard
+- Total Inputs counter
+- Generated Tags counter
+- Generate New Tags option
+- View History option
+- Export Tags option
+
+UI designed using Streamlit.
+
+ ### Navigation and Form Design
+ 
+### Navigation
+- Login Page
+- Dashboard Page
+- Tag Generator Page
+
+### Form Design
+- Text Input Area
+- Generate Tags Button
+
+Navigation is implemented using Streamlit sidebar.
+
+### Design Review
+
+### Reviewed Components
+
+- Use Case Diagram
+- Database Requirement Analysis
+- ER Diagram
+- Database Schema
+- Login UI Design
+- Dashboard UI Design
+- Navigation Design
+- Form Design
+
+### Review Status
+
+All designs were reviewed and verified for correctness and completeness.
