@@ -2,31 +2,19 @@ import streamlit as st
 
 st.set_page_config(page_title="Automatic Tag Generator")
 
-page = st.sidebar.selectbox(
-    "Navigation",
-    ["Login", "Dashboard", "Tag Generator"]
-)
+st.title("🔐 Login Page")
 
-if page == "Login":
+username = st.text_input("Username")
+password = st.text_input("Password", type="password")
 
-    st.title("🔐 Login")
+if st.button("Login"):
 
-    st.text_input("Username")
-    st.text_input("Password", type="password")
+    if username == "admin" and password == "admin123":
+        st.success("Login Successful!")
+        st.balloons()
 
-    st.button("Login")
+        st.title("🏷️ Dashboard")
+        st.write("Welcome to Automatic Tag Generator")
 
-elif page == "Dashboard":
-
-    st.title("🏷️ Dashboard")
-
-    st.metric("Total Inputs", "120")
-    st.metric("Generated Tags", "850")
-
-elif page == "Tag Generator":
-
-    st.title("🏷️ Tag Generator")
-
-    text = st.text_area("Enter Text")
-
-    st.button("Generate Tags")
+    else:
+        st.error("Invalid Username or Password")
