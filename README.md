@@ -130,7 +130,7 @@ UI designed using Streamlit.
 
 Navigation is implemented using Streamlit sidebar.
 
-## Day 12 - Design Review
+### Design Review
 
 ### Reviewed Components
 
