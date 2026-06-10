@@ -117,7 +117,7 @@ CREATE TABLE user_input (
 
 UI designed using Streamlit.
 
- Navigation and Form Design
+ ### Navigation and Form Design
  
 ### Navigation
 - Login Page
